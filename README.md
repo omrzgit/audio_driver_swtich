@@ -1,6 +1,6 @@
 # Audio Config Switcher
 
-Toggles your PC between two audio configurations:
+Toggles your PC between two audio configurations: (hard codded atm)
 
 | | Config A | Config B |
 |---|---|---|
