@@ -1,0 +1,33 @@
+{
+  "voicemeeter": {
+    "executable": "C:'\\Program Files (x86)\\VB\\Voicemeeter\\voicemeeterpro_x64.exe",
+    "executable": "C:\\Program Files (x86)\\VB\\Voicemeeter\\voicemeeterpro.exe",
+    "variant": "banana",
+    "startup_delay": 3
+  },
+  "config_a": {
+    "label": "Voicemeeter (VAIO)",
+    "system_output": "Voicemeeter Input (VB-Audio Voicemeeter VAIO)",
+    "system_input": "Voicemeeter Out B1 (VB-Audio Voicemeeter VAIO)",
+    "apps": {
+      "brave.exe": {
+        "output": "Voicemeeter AUX Input (VB-Audio Voicemeeter VAIO)",
+        "input": "default"
+      },
+      "vlc.exe": {
+        "output": "Voicemeeter AUX Input (VB-Audio Voicemeeter VAIO)",
+        "input": "default"
+      },
+      "WhatsApp.exe": {
+        "output": "Voicemeeter AUX Input (VB-Audio Voicemeeter VAIO)",
+        "input": "Voicemeeter Out B1 (VB-Audio Voicemeeter VAIO)"
+      }
+    }
+  },
+  "config_b": {
+    "label": "Headset Direct (Corsair HS60)",
+    "system_output": "Headset Earphone (Corsair HS60 PRO Surround USB Sound Adapter)",
+    "system_input": "Headset Microphone (Corsair HS60 PRO Surround USB Sound Adapter)",
+    "apps": {}
+  }
+}
